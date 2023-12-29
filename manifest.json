@@ -2,7 +2,7 @@
   "name": "IRCTC",
   "version": "0.1.0",
   "description": "autofill IRCTC details",
-  "permissions": ["storage", "tabs"],
+  "permissions": ["storage", "tabs","webNavigation"],
   "host_permissions": ["<all_urls>"],
   "background": {
     "service_worker": "background.js"
