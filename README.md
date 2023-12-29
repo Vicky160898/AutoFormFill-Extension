@@ -19,6 +19,6 @@ The AutoForm Filling Extension is a browser extension designed to streamline the
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+ git clone https://github.com/Vicky160898/AutoFormFill-Extension.git
 
 
