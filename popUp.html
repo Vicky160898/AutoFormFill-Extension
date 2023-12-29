@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IRCTC AutoFill</title>
+    <link rel="stylesheet" href="popUp.css" />
+  </head>
+  <body>
+    <form id="loginForm">
+      <p class="heading">IRCTC TATKAL FORM :</p>
+      <label for="username">Username :</label>
+      <input type="text" id="username" name="username" required />
+
+      <label for="password">Password :</label>
+      <input type="password" id="password" name="password" required />
+
+      <div class="location">
+        <div class="locationDiv">
+          <label for="destination">Form :</label>
+          <input type="text" id="destination" name="destination" required />
+        </div>
+        <div class="locationDiv">
+          <label for="pickup">To :</label>
+          <input type="text" id="pickup" name="pickup" required />
+        </div>
+      </div>
+
+      <label for="date">Date :</label>
+      <input type="date" id="date" name="date" required />
+
+      <label for="classCoach">Class :</label>
+      <input type="text" id="classCoach" name="classCoach" required />
+
+      <!-- <label for="rememberMe">Remember Me:</label>
+      <input type="checkbox" id="rememberMe" name="rememberMe" /> -->
+
+      <button type="submit">Submit</button>
+      <p id="message"></p>
+    </form>
+
+    <!-- <div class="container">
+      <div class="title">
+        <img src="IRCTC.png" class="img_logo" alt="logo" />
+        <h1>IRCTC Autofill Popup</h1>
+      </div>
+      <div class="details">
+        <div class="div_1">
+          <p>IRCTC credentials</p>
+          <div class="input_1">
+            <div class="input_lable">
+              <label for="username">IRCTC Login username</label>
+              <input type="text" id="username" />
+            </div>
+            <div class="input_lable">
+              <label for="password">IRCTC Login password</label>
+              <input type="password" id="password" />
+            </div>
+          </div>
+        </div>
+        <div class="div_2"></div>
+        <div class="div_3"></div>
+        <div class="div_4"></div>
+        <div class="div_5"></div>
+        <div class="div_6"></div>
+        <div class="div_7"></div>
+        <div class="div_8"></div>
+        <div class="div_9"></div>
+        <div class="div_10"></div>
+        <p class="text_style">
+          For tatkal bookings, click CONNECT button 20secs before 10:00am /
+          11:00am
+        </p>
+        <div class="btn_group">
+          <button type="submit" id="saveButton" class="btn_1">Save Data</button>
+          <button class="btn_2">Load Data</button>
+          <button class="btn_3">Clear Data</button>
+          <button class="btn_4">Connect</button>
+        </div>
+      </div>
+    </div> -->
+    <script type="module" src="popUp.js"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "name": "IRCTC",
+  "version": "0.1.0",
+  "description": "autofill IRCTC details",
+  "permissions": ["storage", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["IRCTC.png"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "IRCTC.png",
+      "24": "IRCTC.png",
+      "32": "IRCTC.png"
+    },
+    "default_title": "IRCTC",
+    "default_popup": "popUp.html"
+  },
+  "manifest_version": 3
+}

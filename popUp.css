@@ -1,0 +1,234 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #213d77;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  margin: 0;
+}
+.location {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.locationDiv {
+  display: flex;
+  flex-direction: column;
+}
+form {
+  width: 100%;
+  background-color: #213d77;
+  color: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  overflow-y: scroll;
+  height: 350px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #fff;
+}
+.heading {
+  font-size: 21px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #01bb0a;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: larger;
+}
+
+button:hover {
+  background-color: #0af416;
+}
+
+/* * {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 700px;
+  height: 600px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.title {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 5px;
+  color: rgb(103, 103, 173);
+}
+.img_logo {
+  width: auto;
+  height: auto;
+}
+.details {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 5px;
+  padding: 25px;
+  background-color: rgb(70, 70, 205);
+  border-radius: 8px;
+}
+.div_1 {
+  height: 110px;
+  background-color: rgb(158, 202, 160);
+  border-radius: 8px;
+  padding: 10px;
+}
+.div_2 {
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.div_3 {
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.div_4 {
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.div_5 {
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.div_6 {
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.div_7 {
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.div_8 {
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.div_9 {
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.div_10 {
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.text_style {
+  color: #ffffff;
+  font-size: medium;
+}
+.btn_group {
+  display: flex;
+  gap: 10px;
+}
+.btn_1 {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(235, 47, 47);
+  color: #ffffff;
+  cursor: pointer;
+}
+.btn_2 {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(235, 47, 47);
+  color: #ffffff;
+  cursor: pointer;
+}
+.btn_3 {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(235, 47, 47);
+  color: #ffffff;
+  cursor: pointer;
+}
+.btn_4 {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(79, 224, 79);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* input box css here */
+
+/* .div_1 > p {
+  font-size: large;
+  margin-left: 1%;
+}
+
+.input_1 {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  gap: 3%;
+}
+.input_lable {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.input_lable > label {
+  font-size: small;
+  margin-top: 5px;
+}
+.input_lable,
+input {
+  width: 100%;
+  border: none;
+  padding: 6px;
+  border-radius: 4px;
+  font-size: medium;
+}  */
